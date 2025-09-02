@@ -32,7 +32,7 @@ class _HomepageConsumerState extends ConsumerState<Homepage> {
   void initState() {
     super.initState();
     DateTime now = DateTime.now();
-    _formattedDate = DateFormat('MMMM yyyy').format(now);
+    _formattedDate = DateFormat('MMMM').format(now);
   }
 
   int _selectedIndex = 0;
